@@ -42,13 +42,3 @@
   (+(car list) 1))
 
 (showsecond (list 5 6 7 7))
-; returns if list contains 5
-(define (containscheck? list)
-  (if (eq? (car list) 5) #t #f)
-  (if (eq? (car list) (length list)) #f
-      ((containscheck? list)(+(car list) +1)))
-  )
-
-
-
-(containscheck? (list 1 1 5 1 1))
