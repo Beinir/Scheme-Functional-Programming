@@ -13,6 +13,7 @@
 ; In order to explain how the helper function works, we can call it with the original list abc, result list as '(),
 ; and n = 5.
 ; The recursive calls of replicate-help:
+; abc '() 5
 ; bc a 4
 ; c ab 3
 ; () abc 2
