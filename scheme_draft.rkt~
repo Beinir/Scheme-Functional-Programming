@@ -1,0 +1,25 @@
+
+; addition function
+(define (myplus a b)
+  (+ a b))
+
+(myplus 2 3)
+
+; Minus function
+(define (myminus a b c)
+  (- a b c))
+
+(myminus  1 1 1)
+
+; Multiplication function
+(define (mymult a b)
+  (* a b))
+
+(mymult 5 5)
+
+
+; Checks if list is null or not
+(define (getfirstelement list)
+  (if(null? list) #f #t)
+ )
+(getfirstelement (list 1 2 3 4 ))
